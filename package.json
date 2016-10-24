@@ -1,0 +1,38 @@
+{
+  "name": "redis-stream-access",
+  "version": "1.0.0",
+  "description": "Write and read stream values from Redis",
+  "main": "lib/redis-stream-access.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andris9/redis-stream-access.git"
+  },
+  "keywords": [
+    "redis",
+    "stream"
+  ],
+  "author": "Andris Reinman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andris9/redis-stream-access/issues"
+  },
+  "homepage": "https://github.com/andris9/redis-stream-access#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "redis": "^2.6.2",
+    "seq-index": "^1.1.0"
+  }
+}
