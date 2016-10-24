@@ -17,6 +17,7 @@ const redisStream = redisStreamAccess({
 chai.config.includeStack = true;
 
 describe('redis-stream-access tests', function () {
+    this.timeout(100000); // eslint-disable-line
     it('should write and read data from db using write/read', function (done) {
         let instream = fs.createReadStream(__dirname + '/fixtures/alice.txt');
         let writestream = redisStream.createWriteStream('test1');

@@ -1,6 +1,6 @@
 {
   "name": "redis-stream-access",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Write and read stream values from Redis",
   "main": "lib/redis-stream-access.js",
   "directories": {
@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "redis": "^2.6.2",
-    "seq-index": "^1.1.0"
+    "seq-index": "^1.1.0",
+    "snappy": "^5.0.5"
   }
 }
